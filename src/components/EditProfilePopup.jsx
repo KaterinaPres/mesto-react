@@ -54,7 +54,7 @@ function EditProfilePopup(props) {
             <label className="popup__label">
                 <input value={description||""}
                     onChange={handleChangeDescription}
-                    id="about"
+                    id="about" 
                     className="popup__item"
                     type="text"
                     name="about"
